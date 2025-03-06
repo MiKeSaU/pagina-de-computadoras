@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi página web</h1>
+    </header>
+
+    <section>
+        <p>Esta es una página de ejemplo hecha con HTML. ¡Espero que te guste!</p>
+        
+        <p>Aquí te dejo una imagen:</p>
+        <img src="https://via.placeholder.com/300" alt="Imagen de ejemplo">
+    </section>
+
+    <section>
+        <p>Para más información, visita el siguiente enlace:</p>
+        <a href="https://www.wikipedia.org/" target="_blank">Ir a Wikipedia</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mi Página Web</p>
+    </footer>
+</body>
+</html>
