@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category h2 {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .item {
+            flex: 1 1 calc(25% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        .item p {
+            margin: 10px 0 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tienda de Ropa</h1>
+    </header>
+
+    <div class="container">
+        <div class="category">
+            <h2>Camisetas</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Camiseta 1">
+                    <p>Camiseta Básica</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Camiseta 2">
+                    <p>Camiseta Estampada</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Camiseta 3">
+                    <p>Camiseta Manga Larga</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Camiseta 4">
+                    <p>Camiseta Deportiva</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Pantalones</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Pantalón 1">
+                    <p>Pantalón Vaquero</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Pantalón 2">
+                    <p>Pantalón Chino</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Pantalón 3">
+                    <p>Pantalón Deportivo</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Pantalón 4">
+                    <p>Pantalón Corto</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Vestidos</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Vestido 1">
+                    <p>Vestido Casual</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Vestido 2">
+                    <p>Vestido de Fiesta</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Vestido 3">
+                    <p>Vestido Veraniego</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Vestido 4">
+                    <p>Vestido Elegante</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Zapatos</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Zapato 1">
+                    <p>Zapatos Deportivos</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Zapato 2">
+                    <p>Zapatos Formales</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Zapato 3">
+                    <p>Zapatos Casuales</p>
+                </div>
+                <div class="item">
+                    <img src="https://via.placeholder.com/150" alt="Zapato 4">
+                    <p>Zapatos de Tacón</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
